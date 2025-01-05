@@ -1,0 +1,12 @@
+@article{REPO101,
+    author = "Cai, Zicheng and Chen, Lei and Liu, Peng and Ling, Tongtao and Lai, Yutao",
+    doi = "10.1609/aaai.v38i10.28993",
+    journal = "Proceedings of the AAAI Conference on Artificial Intelligence",
+    month = "Mar.",
+    number = "10",
+    pages = "11159-11167",
+    title = "{EG-NAS: Neural Architecture Search with Fast Evolutionary Exploration}",
+    url = "https://ojs.aaai.org/index.php/AAAI/article/view/28993",
+    volume = "38",
+    year = "2024"
+}
