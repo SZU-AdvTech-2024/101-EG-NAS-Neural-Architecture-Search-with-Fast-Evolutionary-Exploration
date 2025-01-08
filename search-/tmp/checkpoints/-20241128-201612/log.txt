@@ -1,0 +1,32 @@
+2024-11-28 20:16:12,517 args = Namespace(arch_learning_rate=0.006, arch_weight_decay=0.001, batch_size=1024, begin=10, cutout=False, cutout_length=16, data='/mnt/data/wsg/data/imagenet', drop_path_prob=0.3, epochs=50, grad_clip=5, init_channels=16, layers=8, learning_rate=0.5, learning_rate_min=0.0, model_path='saved_models', momentum=0.9, mon=0.4, note='try', pop_momentum=0.0, pop_size=50, report_freq=50, resume='', samples=5, save='search-/tmp/checkpoints/-20241128-201612', seed=2, step_size=0.1, tmp_data_dir='../data', unrolled=False, weight_decay=3e-05, workers=4)
+2024-11-28 20:16:22,389 param size = 0.584608MB
+2024-11-28 20:16:22,403 Epoch: 0 lr: 4.990139e-01
+2024-11-28 20:16:22,403 Warming-up Epoch: 0, LR: 1.000000e-01
+2024-11-28 20:16:22,404 genotype = Genotype(normal=[('skip_connect', 1), ('skip_connect', 0), ('dil_conv_5x5', 1), ('dil_conv_3x3', 0), ('skip_connect', 2), ('max_pool_3x3', 1), ('skip_connect', 1), ('sep_conv_3x3', 3)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('dil_conv_3x3', 1), ('avg_pool_3x3', 1), ('sep_conv_5x5', 2), ('dil_conv_3x3', 0), ('max_pool_3x3', 3), ('skip_connect', 2), ('skip_connect', 4)], reduce_concat=range(2, 6))
+2024-11-28 20:16:45,971 TRAIN Step: 000 Objs: 7.491093e+00 R1: 0.097656 R5: 0.390625
+2024-11-28 20:18:26,133 TRAIN Step: 050 Objs: 6.891015e+00 R1: 0.271906 R5: 1.187194
+2024-11-28 20:20:29,230 TRAIN Step: 100 Objs: 6.722220e+00 R1: 0.544361 R5: 2.187113
+2024-11-28 20:23:22,882 TRAIN Step: 150 Objs: 6.589114e+00 R1: 0.818114 R5: 3.174798
+2024-11-28 20:26:07,602 TRAIN Step: 200 Objs: 6.478301e+00 R1: 1.095596 R5: 4.114681
+2024-11-28 20:28:51,995 TRAIN Step: 250 Objs: 6.387560e+00 R1: 1.366020 R5: 4.985138
+2024-11-28 20:31:38,011 TRAIN Step: 300 Objs: 6.309324e+00 R1: 1.636472 R5: 5.792216
+2024-11-28 20:34:21,113 TRAIN Step: 350 Objs: 6.238780e+00 R1: 1.895811 R5: 6.574130
+2024-11-28 20:36:18,228 TRAIN Step: 400 Objs: 6.177909e+00 R1: 2.139914 R5: 7.266502
+2024-11-28 20:38:11,589 TRAIN Step: 450 Objs: 6.122991e+00 R1: 2.378612 R5: 7.923365
+2024-11-28 20:40:05,388 TRAIN Step: 500 Objs: 6.072815e+00 R1: 2.595980 R5: 8.523578
+2024-11-28 20:42:02,403 TRAIN Step: 550 Objs: 6.025888e+00 R1: 2.819625 R5: 9.108085
+2024-11-28 20:44:57,386 TRAIN Step: 600 Objs: 5.982583e+00 R1: 3.036606 R5: 9.655945
+2024-11-28 20:49:24,897 TRAIN Step: 650 Objs: 5.941476e+00 R1: 3.255358 R5: 10.204553
+2024-11-28 20:53:48,945 TRAIN Step: 700 Objs: 5.903747e+00 R1: 3.458508 R5: 10.707360
+2024-11-28 20:58:40,726 TRAIN Step: 750 Objs: 5.867803e+00 R1: 3.644100 R5: 11.180535
+2024-11-28 21:03:27,123 TRAIN Step: 800 Objs: 5.833595e+00 R1: 3.832002 R5: 11.654255
+2024-11-28 21:08:49,087 TRAIN Step: 850 Objs: 5.800527e+00 R1: 4.033972 R5: 12.123605
+2024-11-28 21:14:15,782 TRAIN Step: 900 Objs: 5.769361e+00 R1: 4.227833 R5: 12.582916
+2024-11-28 21:19:59,692 TRAIN Step: 950 Objs: 5.738872e+00 R1: 4.415069 R5: 13.022476
+2024-11-28 21:26:05,914 TRAIN Step: 1000 Objs: 5.711129e+00 R1: 4.588185 R5: 13.432368
+2024-11-28 21:32:02,102 TRAIN Step: 1050 Objs: 5.683672e+00 R1: 4.764064 R5: 13.834295
+2024-11-28 21:38:53,980 TRAIN Step: 1100 Objs: 5.657680e+00 R1: 4.941708 R5: 14.226591
+2024-11-28 21:45:34,340 TRAIN Step: 1150 Objs: 5.633242e+00 R1: 5.111299 R5: 14.603385
+2024-11-28 21:52:42,579 TRAIN Step: 1200 Objs: 5.608847e+00 R1: 5.278072 R5: 14.986291
+2024-11-28 21:59:24,450 TRAIN Step: 1250 Objs: 5.584942e+00 R1: 5.450639 R5: 15.353108
+2024-11-28 21:59:27,950 Train_acc 5.451280

@@ -1,0 +1,10 @@
+2024-11-26 10:54:40,249 args = Namespace(arch_learning_rate=0.006, arch_weight_decay=0.001, batch_size=1024, begin=10, cutout=False, cutout_length=16, data='/mnt/data/wsg/data/imagenet', drop_path_prob=0.3, epochs=80, grad_clip=5, init_channels=16, layers=8, learning_rate=0.5, learning_rate_min=0.0, model_path='saved_models', momentum=0.9, mon=0.4, note='try', pop_momentum=0.0, pop_size=50, report_freq=50, resume='', samples=5, save='search-/tmp/checkpoints/-20241126-105440', seed=2, step_size=0.1, tmp_data_dir='../data', unrolled=False, weight_decay=0.0003, workers=4)
+2024-11-26 10:54:56,851 param size = 0.584608MB
+2024-11-26 10:54:56,866 Epoch: 0 lr: 4.996146e-01
+2024-11-26 10:54:56,866 Warming-up Epoch: 0, LR: 1.000000e-01
+2024-11-26 10:54:56,867 genotype = Genotype(normal=[('skip_connect', 1), ('skip_connect', 0), ('dil_conv_5x5', 1), ('dil_conv_3x3', 0), ('skip_connect', 2), ('max_pool_3x3', 1), ('skip_connect', 1), ('sep_conv_3x3', 3)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('dil_conv_3x3', 1), ('avg_pool_3x3', 1), ('sep_conv_5x5', 2), ('dil_conv_3x3', 0), ('max_pool_3x3', 3), ('skip_connect', 2), ('skip_connect', 4)], reduce_concat=range(2, 6))
+2024-11-26 10:55:42,370 TRAIN Step: 000 Objs: 7.491093e+00 R1: 0.097656 R5: 0.390625
+2024-11-26 11:01:57,076 TRAIN Step: 050 Objs: 6.884034e+00 R1: 0.298713 R5: 1.248468
+2024-11-26 11:08:42,301 TRAIN Step: 100 Objs: 6.712872e+00 R1: 0.559831 R5: 2.302174
+2024-11-26 11:15:11,921 TRAIN Step: 150 Objs: 6.572528e+00 R1: 0.857564 R5: 3.369464
+2024-11-26 11:21:47,226 TRAIN Step: 200 Objs: 6.459855e+00 R1: 1.160215 R5: 4.361979

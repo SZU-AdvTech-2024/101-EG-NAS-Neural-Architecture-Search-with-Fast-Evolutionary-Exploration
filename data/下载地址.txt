@@ -1,0 +1,2 @@
+cifar10、cifar100：
+https://www.cs.toronto.edu/~kriz/cifar.html
